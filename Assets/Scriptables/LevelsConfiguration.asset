@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42662033fad71042b907b10fdf999fd, type: 3}
+  m_Name: LevelsConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDataConfig
+  levels:
+  - name: LEVEL1
+    dimensions: {x: 15, y: 11}
+    timeToAchieve: 120
+    playerSpawnPosition: {x: 0, y: 0, z: 0}
+    levelBlocks:
+    - prefabId: SimpleBox
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 4
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 31
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 30
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 9
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 68
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 96
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 110
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 93
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 62
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 84
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 37
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 14
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 24
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 118
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 126
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelPowerUps:
+    - prefabId: Speed
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Speed
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: EndGame
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelNpcs:
+    - prefabId: Slime
+      indexGridPosition: 77
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":8.0,"y":0.0,"z":4.0}}'
+    - prefabId: Slime
+      indexGridPosition: 54
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":9.0,"y":0.0,"z":0.0}}'
+    - prefabId: Slime
+      indexGridPosition: 41
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":2.0,"y":0.0,"z":1.0}}'
+    - prefabId: Slime
+      indexGridPosition: 69
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":0.0,"y":0.0,"z":3.0}}'
+    - prefabId: Turtle
+      indexGridPosition: 103
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPositions":[{"x":9.0,"y":0.0,"z":0.0},{"x":6.0,"y":0.0,"z":4.0},{"x":2.0,"y":0.0,"z":7.0},{"x":4.0,"y":0.0,"z":8.0}],"minSpeed":0.699999988079071,"maxSpeed":2.4000000953674318}'
+  - name: LEVEL2
+    dimensions: {x: 15, y: 11}
+    timeToAchieve: 120
+    playerSpawnPosition: {x: 0, y: 0, z: 0}
+    levelBlocks:
+    - prefabId: SimpleBox
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 4
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 31
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 30
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 9
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 68
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 96
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 110
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 93
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 62
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 84
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 37
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 14
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 24
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 118
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 126
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelPowerUps:
+    - prefabId: Speed
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Speed
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: EndGame
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelNpcs:
+    - prefabId: Slime
+      indexGridPosition: 77
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":8.0,"y":0.0,"z":4.0}}'
+    - prefabId: Slime
+      indexGridPosition: 54
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":9.0,"y":0.0,"z":0.0}}'
+    - prefabId: Slime
+      indexGridPosition: 41
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":2.0,"y":0.0,"z":1.0}}'
+    - prefabId: Slime
+      indexGridPosition: 69
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":0.0,"y":0.0,"z":3.0}}'
+  - name: LEVEL3
+    dimensions: {x: 15, y: 11}
+    timeToAchieve: 120
+    playerSpawnPosition: {x: 0, y: 0, z: 0}
+    levelBlocks:
+    - prefabId: SimpleBox
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 4
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 31
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 30
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 9
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 68
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 96
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 110
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 93
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 62
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 84
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 37
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 14
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 24
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 118
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 126
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: SimpleBox
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelPowerUps:
+    - prefabId: Speed
+      indexGridPosition: 66
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Speed
+      indexGridPosition: 2
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 23
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: Invencible
+      indexGridPosition: 47
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    - prefabId: EndGame
+      indexGridPosition: 56
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+    levelNpcs:
+    - prefabId: Turtle
+      indexGridPosition: 73
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPositions":[{"x":9.0,"y":0.0,"z":0.0},{"x":6.0,"y":0.0,"z":4.0},{"x":2.0,"y":0.0,"z":7.0},{"x":4.0,"y":0.0,"z":8.0}],"minSpeed":0.699999988079071,"maxSpeed":2.4000000953674318}'
+    - prefabId: Slime
+      indexGridPosition: 54
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":9.0,"y":0.0,"z":0.0}}'
+    - prefabId: Slime
+      indexGridPosition: 41
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      enemyData: '{"patrolPosition":{"x":0.0,"y":0.0,"z":0.0}}'

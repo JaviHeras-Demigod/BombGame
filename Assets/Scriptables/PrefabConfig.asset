@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16006f351c6d34644a8030139b09def3, type: 3}
+  m_Name: PrefabConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnablePrefabsConfig
+  prefabs:
+  - id: SimpleBox
+    prefab: {fileID: 1243100413391809138, guid: 7761ae82e4c87e848a5e8d9dd4c808ee,
+      type: 3}
+  - id: ComplexBox
+    prefab: {fileID: 7706511896572150235, guid: 8c3414984343b84468c30065b3e51904,
+      type: 3}
+  - id: Slime
+    prefab: {fileID: 5624797060053807398, guid: 531279845111c9b4294971dc78a260d0,
+      type: 3}
+  - id: Turtle
+    prefab: {fileID: 700249049640236936, guid: 03af160d9a3e6184fa52eb62226843d2, type: 3}
+  - id: Speed
+    prefab: {fileID: 638889113962467992, guid: ff48fba188c776c47a009333108cb079, type: 3}
+  - id: Invencible
+    prefab: {fileID: 6088351517311920258, guid: 03005542c9e3ed448b8ed13339ae6e10,
+      type: 3}
+  - id: EndGame
+    prefab: {fileID: 6474187335320958962, guid: 3032d21d37027834b8b3ca6da0cc764c,
+      type: 3}
